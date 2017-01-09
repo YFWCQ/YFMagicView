@@ -10,8 +10,6 @@
 
 #import "YFShareInstance.h"
 
-#import "YFCubeView.h"
-
 @implementation YFLeftDirectionHandle
 
 

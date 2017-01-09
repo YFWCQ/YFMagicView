@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "YFMagicView/YFSampleViewController/YFSampleViewController.m"
-            timestampString = "491304254.014464"
+            timestampString = "491553890.285984"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "77"
-            endingLineNumber = "77"
+            startingLineNumber = "83"
+            endingLineNumber = "83"
             landmarkName = "-gameViewScale"
             landmarkType = "5">
          </BreakpointContent>

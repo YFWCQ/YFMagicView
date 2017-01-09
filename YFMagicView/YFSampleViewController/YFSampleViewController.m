@@ -55,6 +55,12 @@ static CGSize CGSizeMax_YF(CGFloat maxWidth, CGFloat maxHeight,CGFloat scale)
     
     [_mcMagicView loadPlayGameView];
     [self.view addSubview:_mcMagicView];
+    __weak typeof(self)weakS = self;
+    [_mcMagicView setSuccessBlock:^{
+        weakS.mcMagicView.userInteractionEnabled = NO;
+        NSLog(@"成功");
+    }];
+    
 }
 
 -(CGRect )gameViewFrame
